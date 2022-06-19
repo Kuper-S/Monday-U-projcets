@@ -23,7 +23,7 @@ class Main {
         list.innerHTML = "";
 
         const items = 'where do you get the items from now that you have a server..?'
-
+        console.log('PP');
         items.forEach(item => {
             const listItem = document.createElement("li");
             listItem.classList.add('list-item');
